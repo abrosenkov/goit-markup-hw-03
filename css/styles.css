@@ -75,7 +75,7 @@ ul, ol {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  gap: 24px ;
+  gap: 40px ;
 }
 
 .nav-link {
@@ -173,6 +173,7 @@ ul, ol {
   padding: 16px 32px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 
 .main-btn:hover, .main-btn:focus {
@@ -250,7 +251,7 @@ ul, ol {
 }
 
 .our-team-item-wrapper {
-  padding: 32px;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -324,6 +325,7 @@ ul, ol {
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
